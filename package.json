@@ -1,0 +1,20 @@
+{
+  "name": "joanmediaprojects",
+  "version": "1.0.0",
+  "description": "cypress-automation-framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --browser chrome e2e"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "javascript",
+    "e2e"
+  ],
+  "author": "Luis Medina",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.3.0"
+  }
+}
