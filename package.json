@@ -4,7 +4,11 @@
   "description": "cypress-automation-framework",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open --browser chrome --e2e"
+    "test": "cypress open --browser chrome --e2e",
+    "cypress:open": "cypress open",
+    "cypress:runDefault": "cypress run --spec cypress/e2e/TestCases/*.cy.js",
+    "cypress:runChrome": "cypress run --browser chrome --spec cypress/e2e/TestCases/*.cy.js",
+    "cypress:runEdge": "cypress run --browser edge --spec cypress/e2e/TestCases/*.cy.js"
   },
   "keywords": [
     "cypress",
