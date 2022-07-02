@@ -4,7 +4,7 @@
   "description": "cypress-automation-framework",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open --browser chrome e2e"
+    "test": "cypress open --browser chrome --e2e"
   },
   "keywords": [
     "cypress",
@@ -14,7 +14,7 @@
   ],
   "author": "Luis Medina",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "cypress": "^10.3.0"
   }
 }
