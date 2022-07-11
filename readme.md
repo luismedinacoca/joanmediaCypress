@@ -15,3 +15,5 @@ $ git checkout BranchName
 
 ***repository***
 https://github.com/JoanEsquivel/testing-lists
+
+$ npm start

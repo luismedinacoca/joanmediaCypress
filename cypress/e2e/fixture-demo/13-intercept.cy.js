@@ -1,12 +1,11 @@
 describe('Intercept Demo', () => {
-    // beforeEach(() => {
-    //     cy.visit("https://www.saucedemo.com/");
-    //     cy.fixture('fixtures-demo/sauceCredentials')
-    //     .then(function(credentials){
-    //         this.credentials = credentials;
-    //     })
-    // });
+
     it("Initial Validation", function(){
+        /**
+         * run the following server for https://github.com/JoanEsquivel/testing-lists
+         * run the command: $ npm start
+         */
+
         cy.visit('http://localhost:3000/');
         cy.get('.todo-list li')
         .should('have.length', 4)
@@ -25,7 +24,7 @@ describe('Intercept Demo', () => {
         .and('contain', 'Intercept Cypress');
     });
 
-    it.only("mock a ready todolist", ()=> {
+    it("mock a ready todolist", ()=> {
         const stubSample = [{
             "title": "Mocked API video",
             "completed": true,
